@@ -1,0 +1,19 @@
+{
+    "name": "mohsen/utilities",
+    "description": "Some utilities",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Mohsen Safari",
+            "email": "safari.tafreshi@gmail.com"
+        }
+    ],
+    "require": {
+	    "php": ">=5.4.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Utilities\\" : "/src/Utilities"
+        }
+    }
+}
